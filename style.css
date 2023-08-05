@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #181717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+h1 {
+  position: absolute;
+  top: 2.4rem;
+  font-size: 2.5rem;
+  color: aquamarine;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.clock_box {
+  display: flex;
+  width: 42.5%;
+  height: 22.5%;
+  background-color: #131212;
+  color: rgb(99, 155, 155);
+  position: relative;
+  border-radius: 4rem;
+  margin-bottom: 10rem;
+  /* background-image: url(Clock.png); */
+}
+.day,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  width: 22%;
+  height: 100%;
+  font-size: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.semicolon {
+  width: 4%;
+  height: 100%;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.text-1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+.text-2 {
+  font-size: 12px;
+}
+.hour-change-button {
+  width: 6rem;
+  height: 3rem;
+  font-size: 0.9rem;
+  background-color: #181717;
+  border-color: aqua;
+  color: aquamarine;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 16rem;
+  left: 35rem;
+  font-weight: bolder;
+}
+.hour-change-button:hover {
+  cursor: pointer;
+  background-color: #131212;
+}
+.set-alarm {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #181717;
+  border-color: aqua;
+  color: aquamarine;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 16rem;
+  left: 42rem;
+  font-weight: bolder;
+}
+.set-alarm:hover {
+  cursor: pointer;
+  background-color: #131212;
+}
+.stopwatch-button {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #181717;
+  border-color: aqua;
+  color: aquamarine;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 16rem;
+  left: 47rem;
+  font-weight: bolder;
+}
